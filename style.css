@@ -1,0 +1,73 @@
+
+.box-perfil{
+    padding: 20px;
+}
+.contenedor
+{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.cajaTitulo p{
+    font-size: 40px;
+    color: red;
+}
+.cajaDescripcion
+{
+    padding: 70px;
+    font-size: 18px;
+}
+.texto_centrado
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+.box-actualidad{
+    background-color:#3498DB;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+}
+.boxEstudios{
+    padding: 20px;
+    border-radius: 10px;
+    color: #2E4053;
+}
+.cajaCursos{
+    background-color: #2E4053;
+    padding: 20px;
+}
+.otros
+{
+    background-color: #3498DB;
+    border-radius: 10px;
+    padding: 20px;
+}
+.otros a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.box-footer{
+    background-color: gray;
+    padding: 40px;
+    margin-top: 10px;
+}
+@media (max-width: 600px)
+{
+    .texto_centrado
+    {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .cajaTitulo p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
